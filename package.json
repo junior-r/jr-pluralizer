@@ -1,0 +1,26 @@
+{
+  "name": "jr-pluralizer",
+  "version": "1.0.0",
+  "description": "A simple utility to pluralize words",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "prepare": "npm run build",
+    "test": "vitest"
+  },
+  "keywords": [
+    "jr-pluralizer",
+    "pluralize",
+    "text",
+    "utility"
+  ],
+  "author": "Junior Ruiz",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^8.5.0",
+    "typescript": "^5.9.2",
+    "vitest": "^3.2.4"
+  }
+}
