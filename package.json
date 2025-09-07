@@ -18,6 +18,14 @@
   ],
   "author": "Junior Ruiz",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/junior-r/jr-pluralizer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/junior-r/jr-pluralizer/issues"
+  },
+  "homepage": "https://github.com/junior-r/jr-pluralizer#readme",
   "devDependencies": {
     "tsup": "^8.5.0",
     "typescript": "^5.9.2",
