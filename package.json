@@ -1,6 +1,6 @@
 {
   "name": "jr-pluralizer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple utility to pluralize words",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
